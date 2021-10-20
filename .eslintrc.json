@@ -18,6 +18,8 @@
         "react"
     ],
     "rules": {
+      "parserOptions": { "ecmaVersion": 6 },
+      "es6": true ,
       "react/destructuring-assignment": ["off", "never"],
         "no-param-reassign": 0,
         "no-unused-vars": "off",
